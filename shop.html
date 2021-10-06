@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eShop</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+    <script src="shop.js"></script>
 </head>
 
 <body>
-    <container class="container">
-        <header class="head">
-            <button class="cart-button" type="button">Корзина</button>
-        </header>
-        <main>
-            <div class="goods-list"></div>
-        </main>
-
-        <script src="shop.js"></script>
-    </container>
+    <header>
+        <div class="header">
+            <button class="cart-button">Корзина</button>
+        </div>
+    </header>
+    <main class="container">
+        <div class="goods-list"></div>
+        <div class="goods-total"></div>
+    </main>
 </body>
 
 </html>
